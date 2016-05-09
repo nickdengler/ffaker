@@ -20,6 +20,10 @@ module FFaker
       FFaker.numerify ZIP_FORMATS.sample
     end
 
+    def postal_code
+      zip_code
+    end
+
     def city
       CITY.sample
     end

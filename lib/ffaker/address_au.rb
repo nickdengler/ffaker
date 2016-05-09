@@ -81,6 +81,10 @@ module FFaker
       POSTCODE[st_abbr][rand(POSTCODE[st_abbr].size)]
     end
 
+    def postal_code(st_abbr = nil)
+      postcode(st_abbr)
+    end
+
     def state
       STATE.sample
     end

@@ -17,6 +17,10 @@ module FFaker
       FFaker.numerify '#####'
     end
 
+    def postal_code
+      zip_code
+    end
+
     def region
       STATE.sample
     end

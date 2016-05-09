@@ -17,6 +17,10 @@ module FFaker
 
     alias zip_code pincode
 
+    def postal_code
+      zip_code
+    end
+
     def state
       STATE.sample
     end

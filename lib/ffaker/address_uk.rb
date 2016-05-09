@@ -23,5 +23,9 @@ module FFaker
     def postcode
       FFaker.bothify(POSTCODE.sample).upcase
     end
+
+    def postal_code
+      postcode
+    end
   end
 end

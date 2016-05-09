@@ -20,6 +20,10 @@ module FFaker
       zip_code
     end
 
+    def postal_code
+      zip_code
+    end
+
     def state
       kommune
     end

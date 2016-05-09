@@ -43,6 +43,10 @@ module FFaker
       end
     end
 
+    def postal_code
+      FFaker.numerify '#####'
+    end
+
     def street_suffix
       STREET_SUFFIX.sample
     end

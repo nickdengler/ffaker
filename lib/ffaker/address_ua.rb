@@ -27,6 +27,10 @@ module FFaker
       numerify_mask(POSTAL_CODE_FORMAT, true)
     end
 
+    def postal_code
+      zip_code
+    end
+
     def street_name
       "вул. #{STREET.sample}"
     end

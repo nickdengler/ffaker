@@ -24,6 +24,10 @@ module FFaker
       FFaker.numerify(POSTAL_CODE_FORMAT)
     end
 
+    def postal_code
+      zip_code
+    end
+
     def street_name
       STREET.sample
     end
